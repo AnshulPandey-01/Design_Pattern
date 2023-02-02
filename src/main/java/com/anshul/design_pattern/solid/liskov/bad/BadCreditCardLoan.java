@@ -12,7 +12,7 @@ public class BadCreditCardLoan implements BadLoanPayment{
     }
 
     @Override
-    public void doRepayment(int amount) {
+    public void doEmipayment(int amount) {
         throw new UnsupportedOperationException("Repayment is not allowed.");
     }
 }

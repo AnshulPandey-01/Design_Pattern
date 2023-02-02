@@ -5,7 +5,7 @@ package com.anshul.design_pattern.solid.interface_segregation.good;
  * 
  * @author anshul
  */
-public class FileDaoConnection implements FileInterface, DaoInterface{
+public class FileDaoConnection implements DaoInterface, FileInterface {
     @Override
     public void createRecord() {
 

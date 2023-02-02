@@ -19,13 +19,9 @@ class AccountOperations {
     
     public Account createAccount(String name, BigDecimal balance) {
         Account account = new Account(Math.abs(RAND.nextLong()), name, BigDecimal.ZERO, new ArrayList<>());
-        addAccount(account);
+        ACCOUNT_MAP.put(account.getAccountNumber(), account);
         TRXN_OP.deposit(balance, account.getAccountNumber());
         return account;
-    }
-
-    public void addAccount(Account account) {
-        ACCOUNT_MAP.put(account.getAccountNumber(), account);
     }
 
     public Account getAccount(Long accountNumber) {

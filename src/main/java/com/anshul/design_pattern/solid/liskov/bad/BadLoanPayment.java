@@ -10,5 +10,5 @@ package com.anshul.design_pattern.solid.liskov.bad;
 public interface BadLoanPayment {
     public void doPayment(int amount);
     public void foreCloseLoan();
-    public void doRepayment(int amount);
+    public void doEmipayment(int amount);
 }

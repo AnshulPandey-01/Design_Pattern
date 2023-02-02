@@ -1,8 +1,6 @@
 package com.anshul.design_pattern.solid.single_responsibility;
 
 import java.math.BigDecimal;
-import java.util.logging.Level;
-import java.util.logging.Logger;
 
 /**
  *

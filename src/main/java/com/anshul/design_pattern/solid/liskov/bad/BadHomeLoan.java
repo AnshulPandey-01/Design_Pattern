@@ -12,7 +12,7 @@ public class BadHomeLoan implements BadLoanPayment{
     }
 
     @Override
-    public void doRepayment(int amount) {
+    public void doEmipayment(int amount) {
 
     }
 }

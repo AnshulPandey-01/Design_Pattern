@@ -11,4 +11,9 @@ public class HomeLoan implements SecureLoan {
 
     }
 
+    @Override
+    public void doEmipayment(int amount) {
+        
+    }
+
 }
