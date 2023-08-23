@@ -1,4 +1,4 @@
-package com.anshul.design_pattern.solid.open_closed;
+package com.anshul.design_pattern.solid.open_closed.good;
 
 /**
  *

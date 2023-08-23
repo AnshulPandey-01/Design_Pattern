@@ -1,4 +1,4 @@
-package com.anshul.design_pattern.solid.open_closed;
+package com.anshul.design_pattern.solid.open_closed.bad;
 
 /**
  * This is a bad design where we are taking type and for each type we are having cases
